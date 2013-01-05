@@ -52,11 +52,13 @@ Tasks
 Hints
 ----
 
-- Look into [7], [8]
+- Look into [7], [8] to get a general understanding
 
 - ImageDao.put(...) writes the array of images sequentially, this can be done in parallel, see [9] or java.lang.Thread
 
 - S3FileSystemMapper.upload(...) utilizes http multi-part uploads, for small files (say less than 1 mb) multi-part uploads are not required, see AmazonS3Client.putObject(...) to upload a file in a single request
+
+- Take a look at the actual image take ... there are other more creative approaches to approach this!
 
 - Feel free to suggest alternative solutions, refactor the code, or try whatever you like ... and keep in mind that Google can give you a hand
 
