@@ -58,7 +58,7 @@ Hints
 
 - S3FileSystemMapper.upload(...) utilizes http multi-part uploads, for small files (say less than 1 mb) multi-part uploads are not required, see AmazonS3Client.putObject(...) to upload a file in a single request
 
-- Take a look at the actual image take ... there are other more creative approaches to approach this!
+- Take a look at the actual image data ... there are other more creative approaches to approach this!
 
 - Feel free to suggest alternative solutions, refactor the code, or try whatever you like ... and keep in mind that Google can give you a hand
 
