@@ -46,6 +46,7 @@ public class ImageDaoTest {
 		String aws_region = "EU";
 		String aws_prefix = "unit-test";
 		
+		// ### TODO change the system name to some unique identifier ###
 		String system_name = "foobar";
 		String application_work_folder = ".";
 		
