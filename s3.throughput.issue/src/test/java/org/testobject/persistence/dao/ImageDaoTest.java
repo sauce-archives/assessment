@@ -43,10 +43,10 @@ public class ImageDaoTest {
 		String aws_client_access_key = ">>> access key goes here <<<";
 		String aws_client_secret_key = ">>> secret key goes here <<<";
 		
+		// ### TODO change the AWS prefix to some unique identifier ###
+		String aws_prefix = "abc";
 		String aws_region = "EU";
-		String aws_prefix = "unit-test";
 		
-		// ### TODO change the system name to some unique identifier ###
 		String system_name = "foobar";
 		String application_work_folder = ".";
 		
