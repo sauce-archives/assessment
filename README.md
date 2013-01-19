@@ -23,7 +23,7 @@ This is our minimal chain of tools:
 - Ubuntu 12.04 LTS
 - OpenJDK 1.7
 - Eclipse Juno for Java Developers [0]
-- Amazon AWS account, instructions are below, if this is an issue (e.g. for privacy reasons), please ping us
+- Amazon AWS account, instructions are below, if this is an issue (e.g. for privacy reasons), **PLEASE PING US**
 
 Feel free to use tools of your choice, but keep in mind that we cannot provide any assistance for tools other than the listed above.
 
@@ -32,7 +32,7 @@ Setup
 
 1. Get a local copy of the 'testobject/assessment' git repository [1] either using git clone or githubs zip file
 2. Import the maven project 's3.throughput.issue' into your local eclipse workspace [2]
-3. Sign up for an Amazon AWS S3 account [3] - YOU DON'T HAVE TO PAY for S3, the free-tier comes with plenty of free requests
+3. Sign up for an Amazon AWS S3 account [3] - **YOU DON'T HAVE TO PAY** for S3, the free-tier comes with plenty of free requests
 4. Log into your AWS account, goto [4] and create a new access key
 5. Copy and paste the 'Access Key ID' and 'Secret Access Key' into org.testobject.persistence.dao.ImageDaoTest.Constants
 6. Run the unit-test org.testobject.persistence.dao.ImageDaoTest, both saveLocal() and saveRemote() should pass
