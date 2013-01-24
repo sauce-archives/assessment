@@ -34,7 +34,7 @@ Setup
 2. Import the maven project 's3.throughput.issue' into your local eclipse workspace [2]
 3. Sign up for an Amazon AWS S3 account [3] - **YOU DON'T HAVE TO PAY** for S3, the free-tier comes with plenty of free requests
 4. Log into your AWS account, goto [4] and create a new access key
-5. Change the AWS prefix and paste the 'Access Key ID' and 'Secret Access Key' into org.testobject.persistence.dao.ImageDaoTest.Constants
+5. Change the AWS prefix to something random and paste the 'Access Key ID' and 'Secret Access Key' into org.testobject.persistence.dao.ImageDaoTest.Constants
 6. Run the unit-test org.testobject.persistence.dao.ImageDaoTest, both saveLocal() and saveRemote() should pass
 7. Double-check that the image files are uploaded to S3 [5]
  
